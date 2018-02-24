@@ -1,0 +1,4003 @@
+
+
+*******************************************************************************
+Tue Oct 31 15:46:15 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.0836349784e+00   0.00e+00  4.27e-01    1.000000e+00   1.000000e+00
+  17 1.3396807051e+00  -3.24e-03  4.27e-06    2.508388e-01   8.195617e+01
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 1.33968
+rel. change during last iteration : -3.23997e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.385815
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.148853
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.250839         +/- 0.1286       (51.27%)
+b               = 81.9562          +/- 5.37e+07     (6.552e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.316  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:50:47 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) - c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.3579668215e+01   0.00e+00  5.15e-01    2.508388e-01   8.195617e+01   1.000000e+00   1.000000e+00
+1964 3.1840940659e-04  -2.14e-01  5.15e-06   -7.413570e+01   1.808714e+00  -7.417810e+01   2.531585e+00
+
+After 1964 iterations the fit converged.
+final sum of squares of residuals : 0.000318409
+rel. change during last iteration : -2.13894e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00674441
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.54871e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -74.1357         +/- 1324         (1786%)
+b               = 1.80871          +/- 0.1513       (8.366%)
+c               = -74.1781         +/- 1324         (1785%)
+d               = 2.53159          +/- 9.001        (355.6%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.972  1.000 
+c               1.000  0.972  1.000 
+d              -1.000 -0.972 -1.000  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:55:50 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.4210557197e+05   0.00e+00  5.23e+01   -7.413570e+01   1.808714e+00  -7.417810e+01   2.531585e+00
+ 865 3.1396779729e-04  -9.99e-01  5.23e-03   -1.088474e+02   1.806091e+00   1.088896e+02   2.724288e+00
+
+After 865 iterations the fit converged.
+final sum of squares of residuals : 0.000313968
+rel. change during last iteration : -9.99036e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0066972
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.48525e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -108.847         +/- 2840         (2609%)
+b               = 1.80609          +/- 0.1503       (8.32%)
+c               = 108.89           +/- 2840         (2608%)
+d               = 2.72429          +/- 13.13        (482%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.972  1.000 
+c              -1.000 -0.972  1.000 
+d              -1.000 -0.972  1.000  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:56:25 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.9152646415e+00   0.00e+00  7.69e+01   -1.088474e+02   1.806091e+00   1.088896e+02   2.724288e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Tue Oct 31 15:56:31 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724418e+01   1.705860e+00   5.792673e+01   1.591471e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Tue Oct 31 15:57:02 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:2
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.3314598933e+00   0.00e+00  4.07e+01   -5.724418e+01   1.705860e+00   5.792673e+01   1.593062e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Tue Oct 31 15:57:07 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6262246593e-01   0.00e+00  4.07e+01   -5.742473e+01   1.705860e+00   5.774185e+01   1.594655e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Tue Oct 31 15:57:08 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6262246593e-01   0.00e+00  4.07e+01   -5.742473e+01   1.705860e+00   5.774185e+01   1.596250e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Tue Oct 31 15:57:11 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6262246593e-01   0.00e+00  4.07e+01   -5.742473e+01   1.705860e+00   5.774185e+01   1.597846e+01
+   1 8.6262246593e-01   0.00e+00  4.07e+00   -5.742473e+01   1.705860e+00   5.774185e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.862622
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.351044
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123232
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.4247         +/- 5.524e+14    (9.619e+14%)
+b               = 1.70586          +/- 9e+10        (5.276e+12%)
+c               = 57.7419          +/- 5.524e+14    (9.566e+14%)
+d               = 15.9785          +/- 1.578e+11    (9.875e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.142  1.000 
+c              -1.000 -0.142  1.000 
+d              -0.683 -0.187  0.683  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:57:17 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.3299159244e+00   0.00e+00  4.07e+01   -5.742473e+01   1.705860e+00   5.774185e+01   1.597846e+01
+   3 8.6107849702e-01  -4.35e-06  4.07e-02   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : -4.34914e-11
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 7.048e+14    (1.231e+15%)
+b               = 1.70586          +/- 1.015e+11    (5.953e+12%)
+c               = 57.9256          +/- 7.048e+14    (1.217e+15%)
+d               = 15.9785          +/- 1.66e+11     (1.039e+12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.458  1.000 
+c              -1.000 -0.458  1.000 
+d              -0.581 -0.416  0.581  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:58:41 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.495e+14    (9.599e+14%)
+b               = 1.70586          +/- 9.154e+10    (5.366e+12%)
+c               = 57.9256          +/- 5.495e+14    (9.486e+14%)
+d               = 15.9785          +/- 1.352e+11    (8.46e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.165  1.000 
+c              -1.000 -0.165  1.000 
+d               0.041 -0.198 -0.041  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:04 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 1.879e+15    (3.283e+15%)
+b               = 1.70586          +/- 9.553e+10    (5.6e+12%)
+c               = 57.9256          +/- 1.879e+15    (3.244e+15%)
+d               = 15.9785          +/- 2.171e+11    (1.359e+12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.327  1.000 
+c              -1.000  0.327  1.000 
+d               0.783 -0.378 -0.783  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:05 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.084e+14    (8.881e+14%)
+b               = 1.70586          +/- 9.044e+10    (5.302e+12%)
+c               = 57.9256          +/- 5.084e+14    (8.777e+14%)
+d               = 15.9785          +/- 1.357e+11    (8.495e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.060  1.000 
+c              -1.000  0.060  1.000 
+d               0.100 -0.212 -0.100  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:06 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.084e+14    (8.881e+14%)
+b               = 1.70586          +/- 9.044e+10    (5.302e+12%)
+c               = 57.9256          +/- 5.084e+14    (8.777e+14%)
+d               = 15.9785          +/- 1.357e+11    (8.495e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.060  1.000 
+c              -1.000  0.060  1.000 
+d               0.100 -0.212 -0.100  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:06 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.084e+14    (8.881e+14%)
+b               = 1.70586          +/- 9.044e+10    (5.302e+12%)
+c               = 57.9256          +/- 5.084e+14    (8.777e+14%)
+d               = 15.9785          +/- 1.357e+11    (8.495e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.060  1.000 
+c              -1.000  0.060  1.000 
+d               0.100 -0.212 -0.100  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:07 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.084e+14    (8.881e+14%)
+b               = 1.70586          +/- 9.044e+10    (5.302e+12%)
+c               = 57.9256          +/- 5.084e+14    (8.777e+14%)
+d               = 15.9785          +/- 1.357e+11    (8.495e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.060  1.000 
+c              -1.000  0.060  1.000 
+d               0.100 -0.212 -0.100  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:08 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.084e+14    (8.881e+14%)
+b               = 1.70586          +/- 9.044e+10    (5.302e+12%)
+c               = 57.9256          +/- 5.084e+14    (8.777e+14%)
+d               = 15.9785          +/- 1.357e+11    (8.495e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.060  1.000 
+c              -1.000  0.060  1.000 
+d               0.100 -0.212 -0.100  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 15:59:39 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.6107849702e-01   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   1 8.6107849702e-01   0.00e+00  4.07e+00   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.861078
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.35073
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123011
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.243          +/- 5.084e+14    (8.881e+14%)
+b               = 1.70586          +/- 9.044e+10    (5.302e+12%)
+c               = 57.9256          +/- 5.084e+14    (8.777e+14%)
+d               = 15.9785          +/- 1.357e+11    (8.495e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.060  1.000 
+c              -1.000  0.060  1.000 
+d               0.100 -0.212 -0.100  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 16:01:53 2017
+
+
+FIT:    data read from "data.beta-0.0.dat"
+        format = z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x + d) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.3314598933e+00   0.00e+00  4.07e+01   -5.724302e+01   1.705860e+00   5.792557e+01   1.597846e+01
+   3 8.6262246593e-01  -4.34e-06  4.07e-02   -5.742357e+01   1.705860e+00   5.774069e+01   1.597846e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.862622
+rel. change during last iteration : -4.34135e-11
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.351044
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.123232
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -57.4236         +/- 5.093e+14    (8.869e+14%)
+b               = 1.70586          +/- 8.926e+10    (5.233e+12%)
+c               = 57.7407          +/- 5.093e+14    (8.82e+14%)
+d               = 15.9785          +/- 1.481e+11    (9.27e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.064  1.000 
+c              -1.000 -0.064  1.000 
+d               0.628 -0.057 -0.628  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 16:08:26 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x + d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.6515798360e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1896 3.2747143168e-04  -9.99e-01  6.81e-05   -1.110827e+02   1.120398e+02   1.806634e+00   2.739262e+00
+
+After 1896 iterations the fit converged.
+final sum of squares of residuals : 0.000327471
+rel. change during last iteration : -9.98573e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00683971
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.67816e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -111.083         +/- 3079         (2771%)
+b               = 112.04           +/- 3079         (2748%)
+c               = 1.80663          +/- 0.1536       (8.503%)
+d               = 2.73926          +/- 13.83        (504.8%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Tue Oct 31 16:17:23 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.4114102825e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  22 6.7162405103e-04  -1.28e-01  6.81e-07    6.862770e-01   2.586438e-01   2.795162e+00  -9.158179e-01
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 0.000671624
+rel. change during last iteration : -1.27883e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00979522
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.59463e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.686277         +/- 0.01257      (1.832%)
+b               = 0.258644         +/- 0.01895      (7.326%)
+c               = 2.79516          +/- 0.314        (11.23%)
+d               = -0.915818        +/- 0.1547       (16.89%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.847  1.000 
+c               0.736 -0.944  1.000 
+d              -0.889  0.960 -0.954  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:39:53 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using ($0/10):4
+        format = x:z
+BREAK: No data to fit
+
+*******************************************************************************
+Wed Nov  1 10:40:24 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.6515798360e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1896 3.2747143168e-04  -9.99e-01  6.81e-05   -1.110827e+02   1.120398e+02   1.806634e+00   2.739262e+00
+
+After 1896 iterations the fit converged.
+final sum of squares of residuals : 0.000327471
+rel. change during last iteration : -9.98573e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00683971
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.67816e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -111.083         +/- 3079         (2771%)
+b               = 112.04           +/- 3079         (2748%)
+c               = 1.80663          +/- 0.1536       (8.503%)
+d               = 2.73926          +/- 13.83        (504.8%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:44:18 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.8608300113e-02   0.00e+00  7.88e+01   -1.110827e+02   1.120398e+02   1.806634e+00   2.739262e+00
+  10 5.0450510603e-03  -2.11e-01  7.88e-03   -1.057638e+02   1.068068e+02   1.078426e+00   2.814275e+00
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 0.00504505
+rel. change during last iteration : -2.10547e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268463
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000720722
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -105.764         +/- 2.7e+04      (2.553e+04%)
+b               = 106.807          +/- 2.7e+04      (2.528e+04%)
+c               = 1.07843          +/- 0.9139       (84.74%)
+d               = 2.81428          +/- 127.1        (4518%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:45:24 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f0(x)
+	f0(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.1337539055e-02   0.00e+00  7.50e+01   -1.057638e+02   1.068068e+02   1.078426e+00   2.814275e+00
+ 285 3.2158854310e-04  -1.00e+00  7.50e-04   -3.460339e+02   3.469911e+02   1.802956e+00   3.305761e+00
+
+After 285 iterations the fit converged.
+final sum of squares of residuals : 0.000321589
+rel. change during last iteration : -9.99538e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.006778
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.59412e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -346.034         +/- 2.941e+04    (8499%)
+b               = 346.991          +/- 2.941e+04    (8476%)
+c               = 1.80296          +/- 0.1524       (8.45%)
+d               = 3.30576          +/- 42.57        (1288%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:46:55 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.8627752102e-02   0.00e+00  2.45e+02   -3.460339e+02   3.469911e+02   1.802956e+00   3.305761e+00
+   9 5.0530444322e-03  -2.32e-01  2.45e-03   -2.919319e+02   2.929751e+02   1.076011e+00   3.319729e+00
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.00505304
+rel. change during last iteration : -2.31933e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268675
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000721863
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -291.932         +/- 2.044e+05    (7.002e+04%)
+b               = 292.975          +/- 2.044e+05    (6.977e+04%)
+c               = 1.07601          +/- 0.9161       (85.14%)
+d               = 3.31973          +/- 350.4        (1.056e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:48:25 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.1342476313e-02   0.00e+00  2.07e+02   -2.919319e+02   2.929751e+02   1.076011e+00   3.319729e+00
+  95 3.1968584686e-04  -9.97e-01  2.07e-04   -1.099288e+03   1.100245e+03   1.801757e+00   3.883180e+00
+
+After 95 iterations the fit converged.
+final sum of squares of residuals : 0.000319686
+rel. change during last iteration : -9.97331e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00675791
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.56694e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1099.29         +/- 2.956e+05    (2.689e+04%)
+b               = 1100.25          +/- 2.956e+05    (2.686e+04%)
+c               = 1.80176          +/- 0.1519       (8.433%)
+d               = 3.88318          +/- 134.9        (3474%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:48:50 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.8624368270e-02   0.00e+00  7.78e+02   -1.099288e+03   1.100245e+03   1.801757e+00   3.883180e+00
+  11 5.0563814486e-03  -4.54e-01  7.78e-04   -1.081408e+03   1.082451e+03   1.075082e+00   3.973571e+00
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0.00505638
+rel. change during last iteration : -4.54095e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268764
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00072234
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1081.41         +/- 2.8e+06      (2.589e+05%)
+b               = 1082.45          +/- 2.8e+06      (2.587e+05%)
+c               = 1.07508          +/- 0.917        (85.29%)
+d               = 3.97357          +/- 1299         (3.269e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:49:16 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.7147551774e+00   0.00e+00  7.65e+02   -1.081408e+03   1.082451e+03   1.075082e+00   3.973571e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:18 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.9113848870e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.727626e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:19 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.9113848870e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.729353e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:20 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.5236439749e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.731083e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:21 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.8774091213e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.732814e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:22 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.4896682092e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.734547e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:23 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.4896682092e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.736281e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:23 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.1019272971e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.738017e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:49:24 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.1971985021e-25   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.739755e+01
+   1 2.1971985021e-25   0.00e+00  4.26e+01    6.021787e+02  -6.021787e+02   9.498541e-01   1.739755e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.1972e-25
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.77168e-13
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.13886e-26
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 602.179          +/- 403.7        (67.04%)
+b               = -602.179         +/- 403.7        (67.04%)
+c               = 0.949854         +/- 0.00188      (0.1979%)
+d               = 17.3976          +/- 0.0208       (0.1196%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.474 -0.474  1.000 
+d              -0.541  0.541 -0.513  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:50:35 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.6000946921e+00   0.00e+00  4.26e+02    6.021787e+02  -6.021787e+02   9.498541e-01   1.739755e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:38 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.741495e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:38 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.743237e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:39 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.744980e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:40 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.746725e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:40 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.748472e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:41 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.750220e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:42 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.751970e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:42 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.753722e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:43 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.755476e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:43 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.757231e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:44 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.758989e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:45 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.760748e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:45 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.762508e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:46 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.764271e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:46 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.766035e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:47 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.767801e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:47 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.769569e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:48 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.771339e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:54 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.773110e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:54 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.774883e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:55 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.776658e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:56 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.778435e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:56 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.780213e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:58 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.781993e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:50:59 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.783775e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:51:00 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.785559e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 10:51:00 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.787345e+01
+   1 2.5868888329e-01   0.00e+00  4.26e+02    6.025583e+02  -6.017990e+02   9.498541e-01   1.787345e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.258689
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192238
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369556
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 602.558          +/- 5.89e+14     (9.775e+13%)
+b               = -601.799         +/- 5.89e+14     (9.787e+13%)
+c               = 0.949854         +/- 1.972e+09    (2.076e+11%)
+d               = 17.8734          +/- 2.395e+10    (1.34e+11%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.504 -0.504  1.000 
+d               0.070 -0.070  0.164  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:52:32 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.6515798360e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+1896 3.2747143168e-04  -9.99e-01  6.81e-05   -1.110827e+02   1.120398e+02   1.806634e+00   2.739262e+00
+
+After 1896 iterations the fit converged.
+final sum of squares of residuals : 0.000327471
+rel. change during last iteration : -9.98573e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00683971
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.67816e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -111.083         +/- 3079         (2771%)
+b               = 112.04           +/- 3079         (2748%)
+c               = 1.80663          +/- 0.1536       (8.503%)
+d               = 2.73926          +/- 13.83        (504.8%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:53:53 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.8608300113e-02   0.00e+00  7.88e+01   -1.110827e+02   1.120398e+02   1.806634e+00   2.739262e+00
+  10 5.0450510603e-03  -2.11e-01  7.88e-03   -1.057638e+02   1.068068e+02   1.078426e+00   2.814275e+00
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 0.00504505
+rel. change during last iteration : -2.10547e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268463
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000720722
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -105.764         +/- 2.7e+04      (2.553e+04%)
+b               = 106.807          +/- 2.7e+04      (2.528e+04%)
+c               = 1.07843          +/- 0.9139       (84.74%)
+d               = 2.81428          +/- 127.1        (4518%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:54:30 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f0(x)
+	f0(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.1337539055e-02   0.00e+00  7.50e+01   -1.057638e+02   1.068068e+02   1.078426e+00   2.814275e+00
+ 285 3.2158854310e-04  -1.00e+00  7.50e-04   -3.460339e+02   3.469911e+02   1.802956e+00   3.305761e+00
+
+After 285 iterations the fit converged.
+final sum of squares of residuals : 0.000321589
+rel. change during last iteration : -9.99538e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.006778
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.59412e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -346.034         +/- 2.941e+04    (8499%)
+b               = 346.991          +/- 2.941e+04    (8476%)
+c               = 1.80296          +/- 0.1524       (8.45%)
+d               = 3.30576          +/- 42.57        (1288%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:55:13 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.8627752102e-02   0.00e+00  2.45e+02   -3.460339e+02   3.469911e+02   1.802956e+00   3.305761e+00
+   9 5.0530444322e-03  -2.32e-01  2.45e-03   -2.919319e+02   2.929751e+02   1.076011e+00   3.319729e+00
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.00505304
+rel. change during last iteration : -2.31933e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268675
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000721863
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -291.932         +/- 2.044e+05    (7.002e+04%)
+b               = 292.975          +/- 2.044e+05    (6.977e+04%)
+c               = 1.07601          +/- 0.9161       (85.14%)
+d               = 3.31973          +/- 350.4        (1.056e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:56:07 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.8906376140e-02   0.00e+00  2.07e+02   -2.919319e+02   2.929751e+02   1.076011e+00   3.319729e+00
+  12 4.2309952789e-03  -9.07e-02  2.07e-03   -2.672849e+02   2.684556e+02   5.934815e-01   3.324484e+00
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.004231
+rel. change during last iteration : -9.06618e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245851
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604428
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -267.285         +/- 5.126e+05    (1.918e+05%)
+b               = 268.456          +/- 5.126e+05    (1.909e+05%)
+c               = 0.593481         +/- 1.782        (300.3%)
+d               = 3.32448          +/- 958.7        (2.884e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:58:07 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.8113581302e-01   0.00e+00  1.89e+02   -2.672849e+02   2.684556e+02   5.934815e-01   3.324484e+00
+ 128 3.1968401460e-04  -9.89e-01  1.89e-04   -1.101584e+03   1.102541e+03   1.801756e+00   3.884222e+00
+
+After 128 iterations the fit converged.
+final sum of squares of residuals : 0.000319684
+rel. change during last iteration : -9.89412e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0067579
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.56691e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1101.58         +/- 2.968e+05    (2.694e+04%)
+b               = 1102.54          +/- 2.968e+05    (2.692e+04%)
+c               = 1.80176          +/- 0.1519       (8.433%)
+d               = 3.88422          +/- 135.2        (3480%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.972 -0.972  1.000 
+d              -1.000  1.000 -0.972  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:58:18 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.8624473686e-02   0.00e+00  7.79e+02   -1.101584e+03   1.102541e+03   1.801756e+00   3.884222e+00
+  11 5.0563841441e-03  -4.54e-01  7.79e-04   -1.083770e+03   1.084813e+03   1.075082e+00   3.974661e+00
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0.00505638
+rel. change during last iteration : -4.53642e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268764
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000722341
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1083.77         +/- 2.812e+06    (2.595e+05%)
+b               = 1084.81          +/- 2.812e+06    (2.592e+05%)
+c               = 1.07508          +/- 0.917        (85.29%)
+d               = 3.97466          +/- 1302         (3.275e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:59:00 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.8909079937e-02   0.00e+00  7.67e+02   -1.083770e+03   1.084813e+03   1.075082e+00   3.974661e+00
+  43 4.2321544141e-03  -3.95e-02  7.67e-04   -1.077596e+03   1.078767e+03   5.926727e-01   4.020199e+00
+
+After 43 iterations the fit converged.
+final sum of squares of residuals : 0.00423215
+rel. change during last iteration : -3.94526e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245885
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604593
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1077.6          +/- 8.311e+06    (7.712e+05%)
+b               = 1078.77          +/- 8.311e+06    (7.704e+05%)
+c               = 0.592673         +/- 1.785        (301.2%)
+d               = 4.0202           +/- 3868         (9.622e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 10:59:12 2017
+
+
+FIT:    data read from "data.beta-0.3.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.3814812220e-02   0.00e+00  7.62e+02   -1.077596e+03   1.078767e+03   5.926727e-01   4.020199e+00
+ 285 2.2410485442e-03  -1.40e-03  7.62e-04   -1.078327e+03   1.079811e+03   2.481931e-01   3.909980e+00
+
+After 285 iterations the fit converged.
+final sum of squares of residuals : 0.00224105
+rel. change during last iteration : -1.39932e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0178927
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00032015
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1078.33         +/- 2.831e+07    (2.626e+06%)
+b               = 1079.81          +/- 2.831e+07    (2.622e+06%)
+c               = 0.248193         +/- 4.118        (1659%)
+d               = 3.90998          +/- 1.316e+04    (3.367e+05%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.999 -0.999  1.000 
+d              -1.000  1.000 -0.999  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:01:32 2017
+
+
+FIT:    data read from "data.beta-0.4.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.6327496847e-02   0.00e+00  7.63e+02   -1.078327e+03   1.079811e+03   2.481931e-01   3.909980e+00
+ 180 1.1329171722e-03  -9.94e-01  7.63e-03   -1.095578e+03   1.110286e+03   8.638046e-03   2.530321e+00
+
+After 180 iterations the fit converged.
+final sum of squares of residuals : 0.00113292
+rel. change during last iteration : -9.93675e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0127218
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000161845
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1095.58         +/- 1.21e+09     (1.105e+08%)
+b               = 1110.29          +/- 1.21e+09     (1.09e+08%)
+c               = 0.00863805       +/- 117.7        (1.363e+06%)
+d               = 2.53032          +/- 5.465e+05    (2.16e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:04:44 2017
+
+
+FIT:    data read from "data.beta-0.5.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.6162955601e-02   0.00e+00  7.76e+02   -1.095578e+03   1.110286e+03   8.638046e-03   2.530321e+00
+ 137 7.4113823285e-04  -5.73e-01  7.76e-03   -1.090314e+03   1.101082e+03   8.505507e-03   2.695656e+00
+
+After 137 iterations the fit converged.
+final sum of squares of residuals : 0.000741138
+rel. change during last iteration : -5.73489e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0102896
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000105877
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1090.31         +/- 2.03e+09     (1.862e+08%)
+b               = 1101.08          +/- 2.03e+09     (1.844e+08%)
+c               = 0.00850551       +/- 140.8        (1.656e+06%)
+d               = 2.69566          +/- 9.245e+05    (3.43e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:04:58 2017
+
+
+FIT:    data read from "data.beta-0.6.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 9.9930934808e-03   0.00e+00  7.72e+02   -1.090314e+03   1.101082e+03   8.505507e-03   2.695656e+00
+ 186 5.6503447255e-04  -7.10e-01  7.72e-03   -1.085527e+03   1.093547e+03   8.392129e-03   2.857095e+00
+
+After 186 iterations the fit converged.
+final sum of squares of residuals : 0.000565034
+rel. change during last iteration : -7.10423e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00898439
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.07192e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1085.53         +/- 3.593e+09    (3.31e+08%)
+b               = 1093.55          +/- 3.593e+09    (3.286e+08%)
+c               = 0.00839213       +/- 179.2        (2.136e+06%)
+d               = 2.8571           +/- 1.648e+06    (5.767e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:05:15 2017
+
+
+FIT:    data read from "data.beta-0.7.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.2832742059e-03   0.00e+00  7.68e+02   -1.085527e+03   1.093547e+03   8.392129e-03   2.857095e+00
+ 225 4.3660966613e-04  -6.13e-01  7.68e-03   -1.081244e+03   1.087355e+03   8.297675e-03   3.012532e+00
+
+After 225 iterations the fit converged.
+final sum of squares of residuals : 0.00043661
+rel. change during last iteration : -6.12982e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00789765
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.23728e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1081.24         +/- 6.359e+09    (5.881e+08%)
+b               = 1087.35          +/- 6.359e+09    (5.848e+08%)
+c               = 0.00829767       +/- 231.1        (2.785e+06%)
+d               = 3.01253          +/- 2.933e+06    (9.736e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:05:57 2017
+
+
+FIT:    data read from "data.beta-0.8.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.9991131075e-03   0.00e+00  7.65e+02   -1.081244e+03   1.087355e+03   8.297675e-03   3.012532e+00
+ 232 3.3530157893e-04  -5.16e-01  7.65e-03   -1.077367e+03   1.082121e+03   8.217738e-03   3.163813e+00
+
+After 232 iterations the fit converged.
+final sum of squares of residuals : 0.000335302
+rel. change during last iteration : -5.15974e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.006921
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.79002e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1077.37         +/- 8.816e+09    (8.183e+08%)
+b               = 1082.12          +/- 8.817e+09    (8.147e+08%)
+c               = 0.00821774       +/- 235.5        (2.866e+06%)
+d               = 3.16381          +/- 4.087e+06    (1.292e+08%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:06:04 2017
+
+
+FIT:    data read from "data.beta-0.9.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.5601305915e-03   0.00e+00  7.62e+02   -1.077367e+03   1.082121e+03   8.217738e-03   3.163813e+00
+ 180 2.4858301184e-04  -4.95e-01  7.62e-03   -1.073692e+03   1.077434e+03   8.147099e-03   3.317756e+00
+
+After 180 iterations the fit converged.
+final sum of squares of residuals : 0.000248583
+rel. change during last iteration : -4.94839e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00595918
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.55119e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1073.69         +/- 1.255e+10    (1.169e+09%)
+b               = 1077.43          +/- 1.255e+10    (1.165e+09%)
+c               = 0.0081471        +/- 245.2        (3.01e+06%)
+d               = 3.31776          +/- 5.842e+06    (1.761e+08%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:06:10 2017
+
+
+FIT:    data read from "data.beta-1.0.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.6407094654e-03   0.00e+00  7.60e+02   -1.073692e+03   1.077434e+03   8.147099e-03   3.317756e+00
+  31 1.6997582037e-04  -5.96e-01  7.60e-03   -1.070082e+03   1.073049e+03   8.085057e-03   3.480395e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 0.000169976
+rel. change during last iteration : -5.9649e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0049277
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.42823e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1070.08         +/- 1.241e+10    (1.16e+09%)
+b               = 1073.05          +/- 1.241e+10    (1.156e+09%)
+c               = 0.00808506       +/- 174.3        (2.156e+06%)
+d               = 3.4804           +/- 5.802e+06    (1.667e+08%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:22:09 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 5.1828930814e-03   0.00e+00  7.67e+02   -1.083770e+03   1.084810e+03   1.075080e+00   3.974660e+00
+   3 5.0563840785e-03  -2.85e-04  7.67e-01   -1.083768e+03   1.084812e+03   1.075080e+00   3.974661e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00505638
+rel. change during last iteration : -2.8493e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0268764
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000722341
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1083.77         +/- 2.812e+06    (2.595e+05%)
+b               = 1084.81          +/- 2.812e+06    (2.592e+05%)
+c               = 1.07508          +/- 0.917        (85.29%)
+d               = 3.97466          +/- 1302         (3.275e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.985 -0.985  1.000 
+d              -1.000  1.000 -0.985  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:23:19 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.8906482416e-02   0.00e+00  7.67e+02   -1.083768e+03   1.084812e+03   1.075080e+00   3.974661e+00
+  43 4.2321544134e-03  -3.95e-02  7.67e-04   -1.077594e+03   1.078765e+03   5.926727e-01   4.020198e+00
+
+After 43 iterations the fit converged.
+final sum of squares of residuals : 0.00423215
+rel. change during last iteration : -3.94522e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245885
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604593
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1077.59         +/- 8.31e+06     (7.712e+05%)
+b               = 1078.76          +/- 8.31e+06     (7.704e+05%)
+c               = 0.592673         +/- 1.785        (301.2%)
+d               = 4.0202           +/- 3868         (9.622e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:23:41 2017
+
+
+FIT:    data read from "data.beta-0.4.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.3175285764e-01   0.00e+00  7.62e+02   -1.077594e+03   1.078765e+03   5.926727e-01   4.020198e+00
+1225 1.1396225273e-03  -9.99e-01  7.62e-02   -1.088913e+03   1.092922e+03   3.756497e-02   3.247919e+00
+
+After 1225 iterations the fit converged.
+final sum of squares of residuals : 0.00113962
+rel. change during last iteration : -9.98878e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0127594
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000162803
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1088.91         +/- 2.748e+08    (2.523e+07%)
+b               = 1092.92          +/- 2.748e+08    (2.514e+07%)
+c               = 0.037565         +/- 27.27        (7.26e+04%)
+d               = 3.24792          +/- 1.261e+05    (3.883e+06%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+d              -1.000  1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:27:18 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.3432337904e-01   0.00e+00  7.70e+02   -1.088913e+03   1.092922e+03   3.756497e-02   3.247919e+00
+1325 4.2321823740e-03  -6.73e-01  7.70e-04   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+
+After 1325 iterations the fit converged.
+final sum of squares of residuals : 0.00423218
+rel. change during last iteration : -6.7298e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245886
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604597
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1096.44         +/- 8.617e+06    (7.859e+05%)
+b               = 1097.61          +/- 8.617e+06    (7.85e+05%)
+c               = 0.591735         +/- 1.787        (302%)
+d               = 4.02846          +/- 3942         (9.785e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:27:20 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.2321823740e-03   0.00e+00  7.76e+02   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+   1 4.2321823533e-03  -4.89e-04  7.76e+01   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00423218
+rel. change during last iteration : -4.89174e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245886
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604597
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1096.44         +/- 8.616e+06    (7.858e+05%)
+b               = 1097.61          +/- 8.616e+06    (7.85e+05%)
+c               = 0.591735         +/- 1.787        (302%)
+d               = 4.02846          +/- 3942         (9.785e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:27:22 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.2321823533e-03   0.00e+00  7.76e+02   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+   1 4.2321823533e-03  -4.98e-08  7.76e+02   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00423218
+rel. change during last iteration : -4.97605e-13
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245886
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604597
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1096.44         +/- 8.616e+06    (7.858e+05%)
+b               = 1097.61          +/- 8.616e+06    (7.85e+05%)
+c               = 0.591735         +/- 1.787        (302%)
+d               = 4.02846          +/- 3942         (9.785e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:29:15 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a+b*tanh(c*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 4.2321823533e-03   0.00e+00  7.76e+02   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+   1 4.2321823533e-03  -5.12e-09  7.76e+01   -1.096442e+03   1.097613e+03   5.917355e-01   4.028456e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00423218
+rel. change during last iteration : -5.12361e-14
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0245886
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000604597
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1096.44         +/- 8.616e+06    (7.858e+05%)
+b               = 1097.61          +/- 8.616e+06    (7.85e+05%)
+c               = 0.591735         +/- 1.787        (302%)
+d               = 4.02846          +/- 3942         (9.784e+04%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -1.000  1.000 
+c               0.995 -0.995  1.000 
+d              -1.000  1.000 -0.995  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:31:39 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2039042127e+07   0.00e+00  7.39e+02   -1.096442e+03   1.097613e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:41 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.098711e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:42 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.099810e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:42 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.100909e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:43 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.102010e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:44 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.103112e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:47 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.104215e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:48 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.105320e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:48 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.106425e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:49 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.107531e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:49 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.108639e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:49 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.109748e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:50 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.110857e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:50 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.111968e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:51 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.113080e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:51 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.114193e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:51 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.115307e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:52 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.116423e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:53 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.117539e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:53 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.118657e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:53 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.119775e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:54 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.120895e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:54 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.122016e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:56 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.123138e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:59 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.124261e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:31:59 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.125385e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:00 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.126511e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:00 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.127637e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:01 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.128765e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:01 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.129894e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:02 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.131024e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:02 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.132155e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:02 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.133287e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:03 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.134420e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:03 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.135554e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:03 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.136690e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:04 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.137827e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:04 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.138965e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:04 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.140103e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:04 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.141244e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:04 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.142385e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:05 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.143527e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:05 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.144671e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:05 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.145815e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:05 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.146961e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:05 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.148108e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:06 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.149256e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:06 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5176456536e-01   0.00e+00  5.29e-01    7.841129e-01   1.150406e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Nov  1 11:32:28 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Nov  1 11:33:46 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.5328608147e-01   0.00e+00  4.27e-01    1.000000e+00   1.000000e+00
+   7 1.1418576489e-01  -1.39e-01  4.27e-07    9.055655e-01   3.190851e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.114186
+rel. change during last iteration : -1.39296e-06
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.112638
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0126873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.905566         +/- 0.05729      (6.326%)
+b               = 3.19085          +/- 0.6684       (20.95%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.690  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:34:56 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.3255936858e-01   0.00e+00  5.48e-01    9.055655e-01   3.190851e+00
+   7 3.1288797226e-01  -4.84e-01  5.48e-08    8.739467e-01   4.407694e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.312888
+rel. change during last iteration : -4.84319e-06
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.186455
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0347653
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.873947         +/- 0.07875      (9.011%)
+b               = 4.40769          +/- 1.633        (37.05%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.565  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:35:24 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c+a*tanh(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0148843125e+01   0.00e+00  7.32e-01    8.739467e-01   4.407694e+00   1.000000e+00
+  11 2.8085633451e-03  -4.98e-01  7.32e-06    5.471004e-01   1.302397e+00   4.783312e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 0.00280856
+rel. change during last iteration : -4.97857e-06
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0187369
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00035107
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.5471           +/- 0.0359       (6.562%)
+b               = 1.3024           +/- 0.1738       (13.34%)
+c               = 0.478331         +/- 0.01448      (3.027%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.825  1.000 
+c               0.069 -0.576  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:35:54 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c+a*tanh(b*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.5775835990e-01   0.00e+00  3.50e-01    5.471004e-01   1.302397e+00   4.783312e-01   1.000000e+00
+  90 6.7162400415e-04  -4.25e-01  3.50e-07    2.586472e-01   2.795111e+00   6.862742e-01  -9.157865e-01
+
+After 90 iterations the fit converged.
+final sum of squares of residuals : 0.000671624
+rel. change during last iteration : -4.24872e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00979522
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.59463e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.258647         +/- 0.01895      (7.326%)
+b               = 2.79511          +/- 0.314        (11.23%)
+c               = 0.686274         +/- 0.01258      (1.832%)
+d               = -0.915787        +/- 0.1547       (16.89%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.944  1.000 
+c              -0.847  0.736  1.000 
+d               0.960 -0.954 -0.889  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 11:41:27 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c+a*tanh(b*x+d)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.7078390351e-02   0.00e+00  3.73e-01    2.586472e-01   2.795111e+00   6.862742e-01  -9.157865e-01
+   5 1.5128853094e-03  -2.39e-01  3.73e-06    4.440740e-01   2.643751e+00   4.970917e-01  -4.765873e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00151289
+rel. change during last iteration : -2.38911e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0147012
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000216126
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.444074         +/- 0.05858      (13.19%)
+b               = 2.64375          +/- 0.3561       (13.47%)
+c               = 0.497092         +/- 0.04942      (9.943%)
+d               = -0.476587        +/- 0.1867       (39.17%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b              -0.948  1.000 
+c              -0.980  0.893  1.000 
+d               0.987 -0.952 -0.982  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:05:03 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f0(x)
+	f0(x) = a0 + b0*tanh(c0*x + d0)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Nov  1 12:05:12 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f0(x)
+	f0(x) = a0 + b0*tanh(c0*x + d0)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            b0            c0            d0           
+   0 1.5326828149e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  16 1.5128853181e-03  -9.80e-03  6.81e-07    4.970999e-01   4.440666e-01   2.643772e+00  -4.766130e-01
+
+After 16 iterations the fit converged.
+final sum of squares of residuals : 0.00151289
+rel. change during last iteration : -9.80475e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0147012
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000216126
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 0.4971           +/- 0.04942      (9.942%)
+b0              = 0.444067         +/- 0.05858      (13.19%)
+c0              = 2.64377          +/- 0.3561       (13.47%)
+d0              = -0.476613        +/- 0.1867       (39.17%)
+
+correlation matrix of the fit parameters:
+                a0     b0     c0     d0     
+a0              1.000 
+b0             -0.980  1.000 
+c0              0.893 -0.948  1.000 
+d0             -0.982  0.987 -0.952  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:09:01 2017
+
+
+FIT:    data read from "data.beta-0.0.dat" using 1:3
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f0(x)
+	f0(x) = a0 + b0*tanh(c0*x + d0)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            b0            c0            d0           
+   0 8.7384525525e-02   0.00e+00  3.18e-01    4.970999e-01   4.440666e-01   2.643772e+00  -4.766130e-01
+1140 3.6200596206e-04  -7.21e-01  3.18e-05   -2.342255e+01   2.437863e+01   1.826304e+00   1.970416e+00
+
+After 1140 iterations the fit converged.
+final sum of squares of residuals : 0.000362006
+rel. change during last iteration : -7.21063e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00719132
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.17151e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = -23.4225         +/- 150.2        (641.2%)
+b0              = 24.3786          +/- 150.2        (616%)
+c0              = 1.8263           +/- 0.161        (8.817%)
+d0              = 1.97042          +/- 3.14         (159.4%)
+
+correlation matrix of the fit parameters:
+                a0     b0     c0     d0     
+a0              1.000 
+b0             -1.000  1.000 
+c0              0.971 -0.971  1.000 
+d0             -1.000  1.000 -0.971  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:09:17 2017
+
+
+FIT:    data read from "data.beta-0.1.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*tanh(c1*x + d1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1            d1           
+   0 1.5326828149e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  16 1.5128853181e-03  -9.80e-03  6.81e-07    4.970999e-01   4.440666e-01   2.643772e+00  -4.766130e-01
+
+After 16 iterations the fit converged.
+final sum of squares of residuals : 0.00151289
+rel. change during last iteration : -9.80475e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0147012
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000216126
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 0.4971           +/- 0.04942      (9.942%)
+b1              = 0.444067         +/- 0.05858      (13.19%)
+c1              = 2.64377          +/- 0.3561       (13.47%)
+d1              = -0.476613        +/- 0.1867       (39.17%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     d1     
+a1              1.000 
+b1             -0.980  1.000 
+c1              0.893 -0.948  1.000 
+d1             -0.982  0.987 -0.952  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:09:27 2017
+
+
+FIT:    data read from "data.beta-0.2.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*tanh(c2*x + d2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2            d2           
+   0 1.4114102825e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  22 6.7162405103e-04  -1.28e-01  6.81e-07    6.862770e-01   2.586438e-01   2.795162e+00  -9.158179e-01
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 0.000671624
+rel. change during last iteration : -1.27883e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00979522
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.59463e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 0.686277         +/- 0.01257      (1.832%)
+b2              = 0.258644         +/- 0.01895      (7.326%)
+c2              = 2.79516          +/- 0.314        (11.23%)
+d2              = -0.915818        +/- 0.1547       (16.89%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     d2     
+a2              1.000 
+b2             -0.847  1.000 
+c2              0.736 -0.944  1.000 
+d2             -0.889  0.960 -0.954  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:09:39 2017
+
+
+FIT:    data read from "data.beta-0.3.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*tanh(c3*x + d3)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3            d3           
+   0 1.3074206947e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  94 3.0471062134e-04  -5.96e-02  6.81e-07    7.763401e-01   1.750317e-01   2.706640e+00  -1.137479e+00
+
+After 94 iterations the fit converged.
+final sum of squares of residuals : 0.000304711
+rel. change during last iteration : -5.96278e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00659773
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.35301e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 0.77634          +/- 0.005757     (0.7415%)
+b3              = 0.175032         +/- 0.01104      (6.307%)
+c3              = 2.70664          +/- 0.2918       (10.78%)
+d3              = -1.13748         +/- 0.1484       (13.05%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     d3     
+a3              1.000 
+b3             -0.542  1.000 
+c3              0.465 -0.951  1.000 
+d3             -0.680  0.939 -0.957  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:09:48 2017
+
+
+FIT:    data read from "data.beta-0.4.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*tanh(c4*x + d4)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4            d4           
+   0 1.2228031262e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 453 1.8424670124e-04  -6.42e-05  6.81e-02    8.321403e-01   1.224133e-01   2.655064e+00  -1.298992e+00
+
+After 453 iterations the fit converged.
+final sum of squares of residuals : 0.000184247
+rel. change during last iteration : -6.42282e-10
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0051304
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.6321e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 0.83214          +/- 0.003905     (0.4693%)
+b4              = 0.122413         +/- 0.008449     (6.902%)
+c4              = 2.65506          +/- 0.3203       (12.06%)
+d4              = -1.29899         +/- 0.1666       (12.83%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     d4     
+a4              1.000 
+b4             -0.088  1.000 
+c4              0.076 -0.955  1.000 
+d4             -0.333  0.919 -0.959  1.000 
+
+
+*******************************************************************************
+Wed Nov  1 12:10:00 2017
+
+
+FIT:    data read from "data.beta-0.5.dat" using ($0/10):4
+        format = x:z
+        x range restricted to [0.00000 : 1.00000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*tanh(c5*x + d5)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5            d5           
+   0 1.1544799014e+01   0.00e+00  6.81e-01    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+ 247 1.0633574753e-04  -4.48e-01  6.81e-07    8.694094e-01   8.407717e-02   2.811904e+00  -1.511764e+00
+
+After 247 iterations the fit converged.
+final sum of squares of residuals : 0.000106336
+rel. change during last iteration : -4.4836e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00389754
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.51908e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 0.869409         +/- 0.002865     (0.3295%)
+b5              = 0.0840772        +/- 0.005759     (6.849%)
+c5              = 2.8119           +/- 0.3489       (12.41%)
+d5              = -1.51176         +/- 0.1846       (12.21%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     d5     
+a5              1.000 
+b5              0.271  1.000 
+c5             -0.227 -0.946  1.000 
+d5             -0.024  0.896 -0.962  1.000 

@@ -1,0 +1,51 @@
+
+
+*******************************************************************************
+Wed Oct 25 14:23:25 2017
+
+
+FIT:    data read from "data.alfa.beta.dat" using 0:1
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(b*t)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Oct 25 14:23:34 2017
+
+
+FIT:    data read from "data.alfa.beta.dat" using 0:1
+        format = x:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.6109969088e+08   0.00e+00  5.03e+04    1.000000e+00   1.000000e+00
+  13 1.8208743790e-03  -6.59e-02  5.03e-05    9.653498e-01  -4.106849e-01
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 0.00182087
+rel. change during last iteration : -6.5919e-07
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0142239
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000202319
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.96535          +/- 0.01279      (1.325%)
+b               = -0.410685        +/- 0.009371     (2.282%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.554  1.000 
