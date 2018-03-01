@@ -20,7 +20,7 @@
 
 int main (int cont, char* data[]) {
 
- int l=10;	// ITERAÇÕES DE H
+ int l=100;	// ITERAÇÕES DE H
 
  float alfa;	// TAXA DE MIGRAÇÃO DE [S] -> [R]
  float lambda;	// TAXA DE MIGRAÇÃO DE [I] -> [S]
@@ -45,10 +45,9 @@ int main (int cont, char* data[]) {
      auxs = sn + h*lambda*in*sn - h*alfa*sn*(sn+rn); in = auxi;
      rn = rn + h*alfa*sn*(sn+rn); sn = auxs;
 
+     printf("%2.10f       %2.10f  %2.10f  %2.10f\n",in,sn,rn,in+sn+rn);
+
    }	// ENCERRA O LOOPING DE PASSO
-
-   printf("%2.10f	%2.10f	%2.10f	%2.10f\n",in,sn,rn,in+sn+rn);
-
  }	// ENCERRA O LOOPING DE TEMPO
 
  return 0;
